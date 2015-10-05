@@ -20,5 +20,6 @@ def stock_picker(array)
   [low_index, high_index]
 end
 
-puts "Buy: #{stock_picker([17,3,6,9,15,8,6,1,10])[0]}"
-puts "Sell: #{stock_picker([17,3,6,9,15,8,6,1,10])[1]}"
+buy_sell = stock_picker([17,3,6,9,15,8,6,1,10])
+puts "Buy: #{buy_sell[0]}"
+puts "Sell: #{buy_sell[1]}"
